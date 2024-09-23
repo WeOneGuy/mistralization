@@ -1,0 +1,43 @@
+{
+  "name": "sample-bot",
+  "version": "1.0.0",
+  "description": "Basic Discord bot using discord.js with TypeScript",
+  "license": "GNU GENERAL PUBLIC LICENSE V3",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --pretty",
+    "clean": "rimraf dist",
+    "deploy": "pnpm build && node --env-file=.env dist/deploy-commands.js",
+    "dev": "pnpm build && pnpm start",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint --fix src",
+    "lint:check": "eslint src",
+    "prebuild": "pnpm run clean",
+    "start": "pnpm run build && node --env-file=.env dist/index.js",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@mistralai/mistralai": "^1.1.0",
+    "discord.js": "^14.16.2",
+    "kurwov": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "eslint": "^8.57.0",
+    "eslint-config-neon": "^0.1.62",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": "9.10.0"
+  },
+  "packageManager": "pnpm@9.10.0",
+  "volta": {
+    "node": "20.17.0",
+    "pnpm": "9.10.0"
+  }
+}
