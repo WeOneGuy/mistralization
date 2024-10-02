@@ -1,4 +1,3 @@
-![Version](https://github.com/brblacky/WaveMusic)
 ![Contributors](https://img.shields.io/github/contributors/WeOneGuy/mistralization.svg?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/WeOneGuy/mistralization.svg?style=for-the-badge)
 ![Stargazers](https://img.shields.io/github/stars/WeOneGuy/mistralization.svg?style=for-the-badge)
