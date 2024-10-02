@@ -1,10 +1,11 @@
-
-[![Version][version-shield]](version-url)
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+![Version](https://github.com/brblacky/WaveMusic)
+![Contributors](https://img.shields.io/github/contributors/WeOneGuy/mistralization.svg?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/WeOneGuy/mistralization.svg?style=for-the-badge)
+![Stargazers](https://img.shields.io/github/stars/WeOneGuy/mistralization.svg?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/WeOneGuy/mistralization.svg?style=for-the-badge)
+![codacy grade](https://img.shields.io/codacy/grade/d499e4a1863349ffb7366f6b9970082f.svg?style=for-the-badge)
+![repo size](https://img.shields.io/github/repo-size/WeOneGuy/mistralization.svg?style=for-the-badge)
+![license](https://img.shields.io/github/license/WeOneGuy/mistralization.svg?style=for-the-badge)
 
 # 🌍 Mistralize the World Bot 🌪️
 
@@ -92,16 +93,3 @@ Thank you for using the UnknownUser_Jack bot! Let's make the world a more intere
 ```
 
 Feel free to customize the content, commands, and contact information as needed!
-
-[version-shield]: https://img.shields.io/github/package-json/v/WeOneGuy/mistralization?style=for-the-badge
-[version-url]: https://github.com/brblacky/WaveMusic
-[contributors-shield]: https://img.shields.io/github/contributors/WeOneGuy/mistralization.svg?style=for-the-badge
-[contributors-url]: https://github.com/WeOneGuy/mistralization/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/WeOneGuy/mistralization.svg?style=for-the-badge
-[forks-url]: https://github.com/WeOneGuy/mistralization/network/members
-[stars-shield]: https://img.shields.io/github/stars/WeOneGuy/mistralization.svg?style=for-the-badge
-[stars-url]: https://github.com/WeOneGuy/mistralization/stargazers
-[issues-shield]: https://img.shields.io/github/issues/WeOneGuy/mistralization.svg?style=for-the-badge
-[issues-url]: https://github.com/WeOneGuy/mistralization/issues
-[license-shield]: https://img.shields.io/github/license/WeOneGuy/mistralization.svg?style=for-the-badge
-[license-url]: https://github.com/WeOneGuy/mistralization/blob/master/LICENSE
