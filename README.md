@@ -1,4 +1,11 @@
-```markdown
+
+[![Version][version-shield]](version-url)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
 # 🌍 Mistralize the World Bot 🌪️
 
 Welcome to the UnknownUser_Jack! This Discord bot harnesses the power of the Mistral API and Mistral-Large-2 to bring a unique experience to your server. With this bot, you can interact with the Mistral API to generate content, automate tasks, and much more!
@@ -85,3 +92,16 @@ Thank you for using the UnknownUser_Jack bot! Let's make the world a more intere
 ```
 
 Feel free to customize the content, commands, and contact information as needed!
+
+[version-shield]: https://img.shields.io/github/package-json/v/WeOneGuy/mistralization?style=for-the-badge
+[version-url]: https://github.com/brblacky/WaveMusic
+[contributors-shield]: https://img.shields.io/github/contributors/WeOneGuy/mistralization.svg?style=for-the-badge
+[contributors-url]: https://github.com/WeOneGuy/mistralization/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/WeOneGuy/mistralization.svg?style=for-the-badge
+[forks-url]: https://github.com/WeOneGuy/mistralization/network/members
+[stars-shield]: https://img.shields.io/github/stars/WeOneGuy/mistralization.svg?style=for-the-badge
+[stars-url]: https://github.com/WeOneGuy/mistralization/stargazers
+[issues-shield]: https://img.shields.io/github/issues/WeOneGuy/mistralization.svg?style=for-the-badge
+[issues-url]: https://github.com/WeOneGuy/mistralization/issues
+[license-shield]: https://img.shields.io/github/license/WeOneGuy/mistralization.svg?style=for-the-badge
+[license-url]: https://github.com/WeOneGuy/mistralization/blob/master/LICENSE
