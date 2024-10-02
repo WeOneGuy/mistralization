@@ -26,4 +26,5 @@ export default {
         content: `Pong 🏓! \nRoundtrip Latency is 3 ms. \nWebsocket Heartbeat is 2 ms`,
     });
 
-  },} satisfies Command;
+  },
+} satisfies Command;

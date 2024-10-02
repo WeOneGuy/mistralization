@@ -5,7 +5,7 @@ import type { Command } from "../../../../structures/command.js";
 
 export default {
   data: {
-    name: "mistral-hack",
+    name: "mistral-reverse",
     type: ApplicationCommandType.Message,
   },
   opt: {
@@ -21,7 +21,7 @@ export default {
       fetchReply: true,
     });
 
-    const response = await complete( message.author.username + ": " + message.content, "You must write some text like you're hacking the user. It must contain fake data about the user. Return only the result.");
+    const response = await complete(message.content, "You must reverse the words in user's message in reverse order and return the result. Return only the result.");
 
     if (!response) {
       await interaction.editReply({
@@ -32,7 +32,7 @@ export default {
 
     try {
       await interaction.editReply({
-        content: `> ${message.content}\n${response}`,
+        content: response,
       });
     } catch (error) {
       await interaction.editReply({

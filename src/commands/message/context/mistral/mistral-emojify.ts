@@ -21,7 +21,7 @@ export default {
       fetchReply: true,
     });
 
-    const response = await complete(message.content, "You must add a lot of emoji to the user's message and return the result. Return only the result.");
+    const response = await complete(message.content, "You must add emojis to the user's message and return the result. Try to place different emojis after every word based on the meaning. Add every different MULTIPLE times. Return only the result.", "mistral-large-latest", 1);
 
     if (!response) {
       await interaction.editReply({
@@ -32,7 +32,7 @@ export default {
 
     try {
       await interaction.editReply({
-        content: `> ${message.content}\n${response}`,
+        content: response,
       });
     } catch (error) {
       await interaction.editReply({

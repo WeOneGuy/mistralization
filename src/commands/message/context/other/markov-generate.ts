@@ -71,7 +71,7 @@ export default {
       }
 
       await interaction.editReply({
-        content: `> ${message.content}\n${response}`,
+        content: response,
       });
     } catch (error) {
       await interaction.editReply({
